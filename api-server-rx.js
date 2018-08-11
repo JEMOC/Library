@@ -85,6 +85,8 @@ app.listen(3002, () => {
 	console.log('It listening 3002');
 })
 
+module.exports = app;
+
 
 
 // app.get('/api/books', (req,res) => {

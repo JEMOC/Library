@@ -4,6 +4,8 @@ const fs = require('fs');
 const static = require('koa-static');
 const cors = require('koa2-cors');
 
+const dataserver = require('./api-server-rx.js');
+
 const apiRouter = require('./routes/api');
 
 const app = new koa();
