@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n* {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; }\nhtml {\n  height: 100%;\n  padding: 0; }\nhtml .container {\n    max-width: 1227px;\n    margin-left: auto;\n    margin-right: auto; }\nhtml .clearfix:befor {\n    content: '';\n    display: table; }\nhtml .clearfix::after {\n    content: '';\n    display: table;\n    clear: both; }\nhtml body {\n    margin: 0;\n    height: 100%; }\n"
+module.exports = "@charset \"UTF-8\";\n/* You can add global styles to this file, and also import other style files */\n* {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; }\nhtml {\n  height: 100%;\n  padding: 0;\n  font-family: \"Arial\", \"Microsoft YaHei\", \"黑体\", sans-serif; }\nhtml .container {\n    max-width: 1227px;\n    margin-left: auto;\n    margin-right: auto; }\nhtml .clearfix:befor {\n    content: '';\n    display: table; }\nhtml .clearfix::after {\n    content: '';\n    display: table;\n    clear: both; }\nhtml body {\n    margin: 0;\n    height: 100%; }\nhtml body .header {\n      width: 100%; }\n"
 
 /***/ }),
 
