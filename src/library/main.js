@@ -593,7 +593,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "url", function() { return url; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "search_url", function() { return search_url; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "img_url", function() { return img_url; });
-const domain = 'http://localhost';
+const domain = 'http://111.230.63.173';
 const url = `${domain}:3002/`;
 const search_url = `${domain}/`;
 const img_url = `${domain}:3001/`;
