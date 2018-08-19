@@ -82,7 +82,7 @@ app.get('/test', (req,res) => {
 })
 
 app.listen(3002, () => {
-	console.log('It listening 3002');
+	console.log('data Server is listening 3002');
 })
 
 module.exports = app;

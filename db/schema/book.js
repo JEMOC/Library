@@ -1,4 +1,6 @@
-const Schema = require('../config');
+const book_mongoose = require('mongoose');
+book_mongoose.connect('mongodb://localhost:27017/library', {useNewUrlParser: true});
+const Schema = book_mongoose.Schema;
 
 const BookSchema = new Schema({
     title: String,
@@ -11,5 +13,7 @@ const BookSchema = new Schema({
     }
 });
 
+const Book = book_mongoose.model('Book', BookSchema);
 
-module.exports = BookSchema;
+
+module.exports = Book;

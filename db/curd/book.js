@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const BookSchema = require('../schema/book');
-const Book = mongoose.model('Book', BookSchema);
+const Book = require('../schema/book');
 const Rx = require('rxjs');
 
 
@@ -24,6 +24,7 @@ exports.find = async (ctx) => {
             }
         })
     }).then(function(data) {
+        console.log(data);
         ctx.response.type = 'json';
         ctx.body = Rx.of(data);
     })

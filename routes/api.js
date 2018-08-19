@@ -6,6 +6,7 @@ const cros = require('koa2-cors');
 const books = require('../db/curd/book');
 // const user = require('./api/user');
 
+router.use(cros());
 router.get('/books', books.find);
 
 
